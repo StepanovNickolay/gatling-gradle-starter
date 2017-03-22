@@ -1,0 +1,19 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "0.3.1"
+}
+
+apply plugin: 'scala'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.7'
+}
+
+gatling {
+    toolVersion = '2.2.2'
+    jvmArgs = [ '-server', '-Xms512M', '-Xmx512M' ]
+    simulations = { include "**/*Simulation.scala" }
+}

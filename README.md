@@ -7,7 +7,7 @@ Simulations can be run locally using Gradle.
 ```./gradlew gatlingRun``` runs all simulations, ```./gradlew gatlingRun-SimpleSimulation``` runs the specific simulation.
 
 ## Gatling DSL
-Gatling provides its own DSL to elegantly build tests. A few of the most important concepts are listed below. For more information, see the Gatling documentation: http://gatling.io/#/resources/documentation
+Gatling provides its own DSL to elegantly build tests. A few of the most important concepts are listed below. For more information, see the Gatling documentation: https://gatling.io/docs/current/
 
 ### Scenario's
 A scenario contains at least one request. Typically, this is a HTTP request.

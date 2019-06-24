@@ -4,7 +4,7 @@ Starter project for writing performance tests with Gatling, using Gradle as buil
 
 ## Running locally
 Simulations can be run locally using Gradle.
-```gradle gatling``` runs all simulations, ```gradle gatling-performancetests.SimpleSimulation``` runs the specific simulation.
+```./gradlew gatlingRun``` runs all simulations, ```./gradlew gatlingRun-SimpleSimulation``` runs the specific simulation.
 
 ## Gatling DSL
 Gatling provides its own DSL to elegantly build tests. A few of the most important concepts are listed below. For more information, see the Gatling documentation: http://gatling.io/#/resources/documentation

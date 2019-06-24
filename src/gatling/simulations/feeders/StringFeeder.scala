@@ -1,4 +1,4 @@
-package performancetests.feeders
+package feeders
 
 trait StringFeeder {
 

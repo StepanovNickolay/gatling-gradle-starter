@@ -1,4 +1,4 @@
-package performancetests
+package configuration
 
 import scala.util.Properties
 

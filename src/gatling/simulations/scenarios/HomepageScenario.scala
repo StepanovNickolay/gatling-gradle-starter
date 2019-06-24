@@ -1,8 +1,8 @@
-package performancetests.scenarios
+package scenarios
 
 import io.gatling.core.Predef._
 import io.gatling.core.structure.ScenarioBuilder
-import performancetests.requests.StaticRequests
+import requests.StaticRequests
 
 trait HomepageScenario extends StaticRequests {
 
